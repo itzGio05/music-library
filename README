@@ -1,0 +1,25 @@
+# Music Library
+
+A full stack web app for managing artists, albums and songs. Built with Node.js, Express and SQLite on the backend, and plain HTML, CSS and JavaScript on the frontend.
+
+## How to run it
+
+```bash
+cd backend
+npm install
+node server.js
+```
+
+Then open `frontend/index.html` in your browser.
+
+## What it does
+
+- Add, edit and delete artists, albums and songs
+- Data is stored in a SQLite database and persists on restart
+- Deleting an artist automatically deletes their albums and songs
+
+## Tech used
+
+- Node.js + Express — backend API
+- SQLite (sql.js) — database
+- HTML, CSS, JavaScript — frontend
